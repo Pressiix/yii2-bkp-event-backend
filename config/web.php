@@ -64,6 +64,11 @@ $config = [
                 'deyraka\materialdashboard\web\MaterialDashboardAsset',
             ],
         ],
+        'session' => [
+
+            'class' => 'yii\web\Session',
+    
+        ],
     ],
     'params' => $params,
 ];
