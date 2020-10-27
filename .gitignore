@@ -15,7 +15,6 @@ Thumbs.db
 # composer vendor dir
 #/vendor
 /vendor/symfony
-/config/web.php
 
 # composer itself is not needed
 composer.phar
