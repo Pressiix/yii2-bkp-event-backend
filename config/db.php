@@ -2,7 +2,7 @@
 
 if(strpos($_SERVER['REQUEST_URI'],'heroku') || strpos($_SERVER['REQUEST_URI'],'localhost') || strpos($_SERVER['REQUEST_URI'],'127.0.0.1'))
 {
-    $db = [     //For Test Environment
+    return [     //For Test Environment
     
         'class' => 'yii\db\Connection',
         'dsn' => 'mysql:host=us-cdbr-east-02.cleardb.com;dbname=heroku_d18bfef1a27cdf7',
@@ -16,7 +16,7 @@ if(strpos($_SERVER['REQUEST_URI'],'heroku') || strpos($_SERVER['REQUEST_URI'],'l
         //'schemaCache' => 'cache',
     ];
 }else{   //For production
-    $db = [
+    return [
         'class' => 'yii\db\Connection',
         'dsn' => 'mysql:host=127.0.0.1;dbname=postdigital_ptd',
         'username' => 'postdigital_ptd',
@@ -30,5 +30,3 @@ if(strpos($_SERVER['REQUEST_URI'],'heroku') || strpos($_SERVER['REQUEST_URI'],'l
     ];
 }
 
-
-return $db;
