@@ -82,7 +82,7 @@ CustomAsset::register($this);
                                             <div class="col-md-4"></div>
                                         </div>
                                     </td>
-                                    <td><button class="btn btn-warning">Edit</button></td>
+                                    <td><button class="btn btn-warning">More</button></td>
                                 </tr>
                             <?php } ?>
                         </tbody>
