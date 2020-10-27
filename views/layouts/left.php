@@ -24,7 +24,7 @@ $sidebar_theme = Yii::$app->params['template']; //Color theme custom by Watchara
     Tip 2: you can also add an image using data-image tag
 -->
     <div class="logo <?= $sidebar_theme ?>">
-        <a href="#" class="simple-text logo-normal">
+        <a href="#" class="simple-text logo-normal" style="color: #fff;">
         <i class="fa fa-user-circle-o fa-lg fa-spin" aria-hidden="true"></i>
             <?= Yii::$app->name ?>
         </a>
