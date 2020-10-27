@@ -1,0 +1,98 @@
+/** CUSTOM BY WATCHARAPHON PIAMPHUETNA **/
+.ptd .bkp {
+  color: #ffff;
+}
+
+/* PTD */
+.sidebar[data-color="ptd"] li.active>a {
+    background-color: #ca4160;
+    /*box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(244, 67, 54, 0.4);*/
+  }
+  
+  .sidebar[data-background-color="ptd"] .nav .nav-item .nav-link {
+    color: #fff;
+  }
+  
+  .sidebar[data-background-color="ptd"] .nav .nav-item i {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .sidebar[data-background-color="ptd"] .nav .nav-item.active [data-toggle="collapse"],
+  .sidebar[data-background-color="ptd"] .nav .nav-item:hover [data-toggle="collapse"] {
+    color: #fff;
+  }
+  
+  .sidebar[data-background-color="ptd"] .nav .nav-item.active [data-toggle="collapse"] i,
+  .sidebar[data-background-color="ptd"] .nav .nav-item:hover [data-toggle="collapse"] i {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .sidebar[data-background-color="ptd"] .user a {
+    color: #fff;
+  }
+  
+  .sidebar[data-background-color="ptd"] .simple-text {
+    color: #fff;
+  }
+  
+  .sidebar[data-background-color="ptd"] .sidebar-background:after {
+    background: #940a0a;
+    opacity: .8;
+  }
+  
+  .sidebar[data-background-color="ptd"] .nav li:hover:not(.active)>a,
+  .sidebar[data-background-color="ptd"] .nav li.active>[data-toggle="collapse"] {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* BKP */
+  .sidebar[data-color="bkp"] li.active>a {
+    background-color: #37509e;
+    /*box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(244, 67, 54, 0.4);*/
+  }
+  
+  .sidebar[data-background-color="bkp"] .nav .nav-item .nav-link {
+    color: #fff;
+  }
+  
+  .sidebar[data-background-color="bkp"] .nav .nav-item i {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .sidebar[data-background-color="bkp"] .nav .nav-item.active [data-toggle="collapse"],
+  .sidebar[data-background-color="bkp"] .nav .nav-item:hover [data-toggle="collapse"] {
+    color: #fff;
+  }
+  
+  .sidebar[data-background-color="bkp"] .nav .nav-item.active [data-toggle="collapse"] i,
+  .sidebar[data-background-color="bkp"] .nav .nav-item:hover [data-toggle="collapse"] i {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .sidebar[data-background-color="bkp"] .user a {
+    color: #fff;
+  }
+  
+  .sidebar[data-background-color="bkp"] .simple-text {
+    color: #fff;
+  }
+  
+  .sidebar[data-background-color="bkp"] .sidebar-background:after {
+    background: #1b3380;
+    opacity: .8;
+  }
+  
+  .sidebar[data-background-color="bkp"] .nav li:hover:not(.active)>a,
+  .sidebar[data-background-color="bkp"] .nav li.active>[data-toggle="collapse"] {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .th-ptd{
+    background-color: #ca4160;
+    color:#ffff;
+  }
+
+  .th-bkp{
+    background-color: #37509e;
+    color:#ffff;
+  }
