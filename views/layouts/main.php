@@ -48,7 +48,10 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/deyraka/yii2
                 <?= $this->render('footer') ?>
             </div>
         <?php }else{
-             echo $content;
+            if(Yii::$app->user->login($this->getUser(), 30))
+            {
+                echo $content;
+            }
         } ?>
         </div>
         <!-- <div class="fixed-plugin">
