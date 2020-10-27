@@ -18,7 +18,7 @@ if(strpos($_SERVER['REQUEST_URI'],'heroku'))
 }else{
     return [
         'class' => 'yii\db\Connection',
-        'dsn' => 'mysql:host=127.0.0.1;dbname=postdigital_ptd',
+        'dsn' => 'mysql:host=localhost;dbname=postdigital_ptd',
         'username' => 'postdigital_ptd',
         'password' => 'Thahxay8',
         'charset' => 'utf8',
