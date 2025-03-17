@@ -108,7 +108,7 @@ class AdminController extends Controller
     {
         Yii::$app->mailer->compose()
         ->setFrom('bpinventory.test@gmail.com')
-        ->setTo('watcharaphonp@bangkokpost.co.th')
+        ->setTo('watcharapon.piam@gmail.com')
         ->setSubject('Test Email')
         ->setTextBody('Test text content')
         ->setHtmlBody('<b>HTML content</b>')
