@@ -6,7 +6,7 @@ return [
     'event_id'=>'37',
 
 
-    'adminEmail' => 'watcharaphonp@bangkokpost.co.th',
+    'adminEmail' => 'watcharapon.piam@gmail.com',
     'senderEmail' => 'noreply@example.com',
     'senderName' => 'Admin',
 ];
